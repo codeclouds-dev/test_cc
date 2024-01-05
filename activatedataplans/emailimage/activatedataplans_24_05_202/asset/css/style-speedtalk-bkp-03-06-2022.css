@@ -1,0 +1,225 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Roboto', sans-serif; overflow-x: hidden; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol { margin: 0; }
+a,
+a:hover,
+a:focus { text-decoration: none; }
+main { position: relative; }
+@font-face { font-family: 'NeuzeitS-Book'; src: url('../fonts/NeuzeitS-Book.eot'); src: url('../fonts/NeuzeitS-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/NeuzeitS-Book.woff2') format('woff2'), url('../fonts/NeuzeitS-Book.woff') format('woff'), url('../fonts/NeuzeitS-Book.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'NeuzeitGroteskW01'; src: url('../fonts/NeuzeitGroteskW01-Regular.eot'); src: url('../fonts/NeuzeitGroteskW01-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/NeuzeitGroteskW01-Regular.woff2') format('woff2'), url('../fonts/NeuzeitGroteskW01-Regular.woff') format('woff'), url('../fonts/NeuzeitGroteskW01-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'NeuzeitGroteskCondW01'; src: url('../fonts/NeuzeitGroteskCondW01-Black.eot'); src: url('../fonts/NeuzeitGroteskCondW01-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/NeuzeitGroteskCondW01-Black.woff2') format('woff2'), url('../fonts/NeuzeitGroteskCondW01-Black.woff') format('woff'), url('../fonts/NeuzeitGroteskCondW01-Black.ttf') format('truetype'); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Bold.eot'); src: local('../fonts/SF Pro Text Bold'), local('../fonts/SFProText-Bold'), url('../fonts/SFProText-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Bold.woff2') format('woff2'), url('../fonts/SFProText-Bold.woff') format('woff'), url('../fonts/SFProText-Bold.ttf') format('truetype'), url('../fonts/SFProText-Bold.svg#SFProText-Bold') format('svg'); font-weight: bold; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Heavy.eot'); src: local('../fonts/SF Pro Text Heavy'), local('SFProText-Heavy'), url('../fonts/SFProText-Heavy.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Heavy.woff2') format('woff2'), url('../fonts/SFProText-Heavy.woff') format('woff'), url('../fonts/SFProText-Heavy.ttf') format('truetype'), url('../fonts/SFProText-Heavy.svg#SFProText-Heavy') format('svg'); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Light.eot'); src: local('../fonts/SF Pro Text Light'), local('SFProText-Light'), url('../fonts/SFProText-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Light.woff2') format('woff2'), url('../fonts/SFProText-Light.woff') format('woff'), url('../fonts/SFProText-Light.ttf') format('truetype'), url('../fonts/SFProText-Light.svg#SFProText-Light') format('svg'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Medium.eot'); src: local('../fonts/SF Pro Text Medium'), local('SFProText-Medium'), url('../fonts/SFProText-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Medium.woff2') format('woff2'), url('../fonts/SFProText-Medium.woff') format('woff'), url('../fonts/SFProText-Medium.ttf') format('truetype'), url('../fonts/SFProText-Medium.svg#SFProText-Medium') format('svg'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Regular.eot'); src: local('../fonts/SF Pro Text Regular'), local('SFProText-Regular'), url('../fonts/SFProText-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Regular.woff2') format('woff2'), url('../fonts/SFProText-Regular.woff') format('woff'), url('../fonts/SFProText-Regular.ttf') format('truetype'), url('../fonts/SFProText-Regular.svg#SFProText-Regular') format('svg'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Semibold.eot'); src: local('../fonts/SF Pro Text Semibold'), local('SFProText-Semibold'), url('../fonts/SFProText-Semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Semibold.woff2') format('woff2'), url('../fonts/SFProText-Semibold.woff') format('woff'), url('../fonts/SFProText-Semibold.ttf') format('truetype'), url('../fonts/SFProText-Semibold.svg#SFProText-Semibold') format('svg'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Bold.eot'); src: local('../fonts/SF Pro Text Bold'), local('SFProText-Bold'), url('../fonts/SFProText-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Bold.woff2') format('woff2'), url('../fonts/SFProText-Bold.woff') format('woff'), url('../fonts/SFProText-Bold.ttf') format('truetype'), url('../fonts/SFProText-Bold.svg#SFProText-Bold') format('svg'); font-weight: bold; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Heavy.eot'); src: local('../fonts/SF Pro Text Heavy'), local('SFProText-Heavy'), url('../fonts/SFProText-Heavy.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Heavy.woff2') format('woff2'), url('../fonts/SFProText-Heavy.woff') format('woff'), url('../fonts/SFProText-Heavy.ttf') format('truetype'), url('../fonts/SFProText-Heavy.svg#SFProText-Heavy') format('svg'); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Light.eot'); src: local('../fonts/SF Pro Text Light'), local('SFProText-Light'), url('../fonts/SFProText-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Light.woff2') format('woff2'), url('../fonts/SFProText-Light.woff') format('woff'), url('../fonts/SFProText-Light.ttf') format('truetype'), url('../fonts/SFProText-Light.svg#SFProText-Light') format('svg'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Medium.eot'); src: local('../fonts/SF Pro Text Medium'), local('SFProText-Medium'), url('../fonts/SFProText-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Medium.woff2') format('woff2'), url('../fonts/SFProText-Medium.woff') format('woff'), url('../fonts/SFProText-Medium.ttf') format('truetype'), url('../fonts/SFProText-Medium.svg#SFProText-Medium') format('svg'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Regular.eot'); src: local('../fonts/SF Pro Text Regular'), local('SFProText-Regular'), url('../fonts/SFProText-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Regular.woff2') format('woff2'), url('../fonts/SFProText-Regular.woff') format('woff'), url('../fonts/SFProText-Regular.ttf') format('truetype'), url('../fonts/SFProText-Regular.svg#SFProText-Regular') format('svg'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Semibold.eot'); src: local('../fonts/SF Pro Text Semibold'), local('SFProText-Semibold'), url('../fonts/SFProText-Semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Semibold.woff2') format('woff2'), url('../fonts/SFProText-Semibold.woff') format('woff'), url('../fonts/SFProText-Semibold.ttf') format('truetype'), url('../fonts/SFProText-Semibold.svg#SFProText-Semibold') format('svg'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face {
+    font-family: 'Neuzeit Grotesk';
+    src: url('../fonts/NeuzeitGro-Lig.eot');
+    src: local('Neuzeit Grotesk Light'), local('NeuzeitGro-Lig'),
+        url('../fonts/NeuzeitGro-Lig.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeuzeitGro-Lig.woff2') format('woff2'),
+        url('../fonts/NeuzeitGro-Lig.woff') format('woff'),
+        url('../fonts/NeuzeitGro-Lig.ttf') format('truetype'),
+        url('../fonts/NeuzeitGro-Lig.svg#NeuzeitGro-Lig') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neuzeit Grotesk';
+    src: url('../fonts/NeuzeitGro-Bol.eot');
+    src: local('Neuzeit Grotesk Bold'), local('NeuzeitGro-Bol'),
+        url('../fonts/NeuzeitGro-Bol.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeuzeitGro-Bol.woff2') format('woff2'),
+        url('../fonts/NeuzeitGro-Bol.woff') format('woff'),
+        url('../fonts/NeuzeitGro-Bol.ttf') format('truetype'),
+        url('../fonts/NeuzeitGro-Bol.svg#NeuzeitGro-Bol') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neuzeit Grotesk';
+    src: url('../fonts/NeuzeitGro-Reg.eot');
+    src: local('Neuzeit Grotesk Regular'), local('NeuzeitGro-Reg'),
+        url('../fonts/NeuzeitGro-Reg.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeuzeitGro-Reg.woff2') format('woff2'),
+        url('../fonts/NeuzeitGro-Reg.woff') format('woff'),
+        url('../fonts/NeuzeitGro-Reg.ttf') format('truetype'),
+        url('../fonts/NeuzeitGro-Reg.svg#NeuzeitGro-Reg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* hero section css */
+.activate-form { padding-top: 40px; background: #fff; border-radius: 15px; margin-top: -20px }
+.activate-form h1 { color: rgba(10, 60, 155, 1); font-family: 'Neuzeit Grotesk'; font-size: 30px; font-weight: bold; line-height: 37px; letter-spacing: 0px; text-align: left; margin-bottom: 20px; border-bottom: 0px; text-align: left }
+.activate-form h1 + p { color: rgba(110, 115, 120, 1); font-family: Roboto; font-size: 14px; font-weight: 500; line-height: 20px; letter-spacing: 0px; text-align: left; margin-bottom: 16px; }
+.activate-form h1 + p + ul { font-family: 'SF Pro'; font-style: normal; font-weight: 400; font-size: 14px; line-height: 20px; color: #2D3241; }
+.activate-form h1 + p + ul li { list-style: none; margin-bottom: 20px; }
+.activate-form h1 + p + ul li .num { display: inline-block; vertical-align: middle; background: rgba(124, 70, 247, 0.2); color: rgba(124, 70, 247, 1); font-family: 'SF Pro'; font-style: normal; font-weight: 860; font-size: 24px; line-height: 2; width: 48px; height: 48px; border-radius: 50px; text-align: center; }
+.activate-form h1 + p + ul li span:last-child { display: inline-block; vertical-align: middle; width: 77%; margin-left: 10px; }
+.btn-blue,
+.btn-verify { background: #004FEB; color: #fff; font-family: 'Neuzeit Grotesk'; font-style: normal; font-weight: bold; font-size: 16px; line-height: 22px; width: auto; text-align: center; padding: 16px; color: #FFFFFF; border: none; border-radius: 5px;line-height: 1;padding: 12px 30px; }
+.activate-form .terms a { color: #36343D; text-decoration: underline; }
+.faq-section { background: #F5F5F5; border-radius: 15px; margin-top: -10px; padding-top: 30px }
+.faq-section h1 { font-family: 'Neuzeit Grotesk'; font-style: normal; font-weight: bold; font-size: 30px; line-height: 32px; letter-spacing: 1.43424e-08px; color: #0A3C9B; margin-bottom: 30px; border-bottom: 0px; text-align: left }
+.faq-section .faqs { font-family: 'SF Pro'; font-style: normal; font-weight: 400; font-size: 14px; line-height: 20px; color: #2D3241; margin-bottom: 20px }
+.faq-section .faqs b { font-weight: 900; }
+.faq-section .faqs ul { margin-left: 18px }
+.faq-section .faqs ul li { list-style: disc; }
+.faq-section .faqs p { margin-bottom: 10px; }
+.hero-sec { background: #4653E6; padding-bottom: 0px; margin-top: 62px; }
+.hero-modal .modal-img { width: 100%; max-width: 450px; }
+.hero-logo { margin-top: 4rem; }
+.hero-logo-wrap { margin-bottom: 30px }
+.email-main h1 { font-family: 'Neuzeit Grotesk'; font-style: normal; font-weight: bold; font-size: 32px; line-height: 38px; color: #0A3C9B; margin-bottom: 10px; border-bottom: 0px; text-align: left }
+.email-main  p { font-family: 'Roboto'; font-style: normal; font-weight: 500; font-size: 14px; line-height: 20px; color: #36343D; margin-bottom: 20px;margin-top:16px }
+.email-main input { background: #FFFFFF; border: 2px solid #38409E; width: 100%; padding: 10px; border-radius: 4px; margin-top: 20px }
+.email-main input.form-control{ height: calc(1.5em + 0.75rem + 20px); }
+.email-main button + p { font-family: 'SF Pro'; font-style: normal; font-weight: 400; font-size: 12px; line-height: 20px; color: #36343D; margin-top: 18px; }
+.btn-verify { margin-top: 30px; }
+.email-main .terms a { color: #36343D; text-decoration: underline; }
+.verification_content .hero-logo-wrap { margin-bottom: 30px; }
+.hero-logo-wrap .hero-logo { margin-top: 2rem; }
+.verification_content .verify-form  h1 { font-family: 'Neuzeit Grotesk'; font-style: normal; font-weight: bold; font-size: 35px; line-height: 37px; color: #2D3241; border-bottom: 0px; text-align: left }
+.verification_content .verify-form  h1 + p { font-family: 'SF Pro'; font-style: normal; font-weight: 510; font-size: 14px; line-height: 20px; color: #36343D; }
+.verification_content .verify-form  h1 + p + ul { margin-left: 15px; margin-bottom: 30px }
+.verification_content .verify-form  h1 + p + ul li { font-family: 'SF Pro'; font-style: normal; font-weight: 510; font-size: 14px; line-height: 20px; color: #36343D; }
+.plan { background: #004FEB; border: 1px solid #EAEAEA; border-radius: 20px; color: #fff; padding: 16px 20px; overflow: hidden; box-sizing: border-box; margin-top: 20px }
+.plan .badge { width: 80px; border-radius: 12px; color: #fff; height: 19px; background: #0A3C9B; font-family: 'SF Pro'; padding: 3px; font-style: normal; font-weight: 700; font-size: 10px; line-height: 12px; text-align: center; margin-bottom: 6px }
+.plan h2 { font-family: 'Neuzeit Grotesk'; font-style: normal; font-weight: bold; font-size: 22px; line-height: 23px; color: #FFFFFF; overflow: hidden; border-bottom: 0px; text-align: left }
+.plan h2 span { float: right; width: 80px; border-radius: 15px; background: #fff; color: #004FEB; text-align: center; font-family: 'SF Pro'; font-style: normal; font-weight: 700; font-size: 12px; line-height: 14px; padding: 4px }
+.plan h2+p { font-family: 'SF Pro'; font-style: normal; font-weight: 510; font-size: 14px; line-height: 17px; color: #E6EBF0; }
+.plan .price { font-family: 'Roboto'; font-style: normal; font-weight: 500; font-size: 20px; line-height: 20px; color: #FFFFFF; margin-top: 30px; }
+.activated-hero-sec { background: #0A3C9B; margin: 0px; padding: 0px; }
+.activated-hero-sec h1 { font-family: 'Neuzeit Grotesk'; font-style: normal; font-weight: bold; font-size: 31px; line-height: 37px; color: #FFFFFF; margin-bottom: 10px; border-bottom: 0px; text-align: left }
+.activated-hero-sec h1 + p { font-family: 'SF Pro'; font-style: normal; font-weight: 510; font-size: 12px; line-height: 20px; color: #F5F5F5; margin-bottom: 20px }
+.device-number { filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25)); width: 100%; min-height: 80px; padding: 0px; margin: 0px; background: #fff; border-radius: 12px; margin-bottom: 50px; }
+.device-number > div { padding: 6px; display: flex; justify-content: center; align-items: center; flex-direction: column; }
+.device-number + .btn-blue { margin-bottom: 40px; width: 80%; padding: 14px; font-size: 14px; font-weight: normal }
+.device-number .gray-text { font-family: 'SF Pro'; font-style: normal; font-weight: 400; font-size: 11px; line-height: 14px; color: #6E7378; }
+.activate-device { background: #fff; padding-top: 40px; margin-bottom: 60px; }
+.activate-device h2 { font-family: 'Neuzeit Grotesk'; font-style: normal; font-weight: bold; font-size: 32px; line-height: 38px; color: #4A4A4A; margin-bottom: 10px
+border-bottom:0px; text-align: left; }
+.activate-device p { font-family: 'SF Pro'; font-style: normal; font-weight: 510; font-size: 14px; line-height: 20px; color: #4A4A4A; }
+.mission-control-app { border-radius: 5px; border-color: #c1becd; border-width: 1px; border-style: solid; margin-top: 30px; padding: 20px; width: 100%; box-sizing: border-box; text-align: center; display: flex; justify-content: center; align-items: center; flex-direction: column }
+.mission-control-app h3 { font-family: 'Roboto'; font-style: normal; font-weight: 500; font-size: 24px; line-height: 30px; text-align: center; color: #36343D; border-bottom: 0px; text-align: left }
+.mission-control-app h3 + p { font-family: 'Roboto'; font-style: normal; font-weight: 400; font-size: 21px; line-height: 30px; text-align: center; color: #6E6E6F; border-bottom: 0px; text-align: left }
+.device-number img:active{ transform:scale(1.1);opacity:.5;}
+.btn-blue:hover , .btn-verify:hover , .btn:hover { background: #0056FF;color:#fff!important; }
+.btn-blue:active, .btn-verify:active{
+    background: #0045CC;
+}
+.activate_button{
+    font-family: sans-serif !important;
+    background: #004FEB;
+    border: transparent;
+    border-radius: 5px;
+    font-family: 'Neuzeit Grotesk';
+    font-weight: bold;
+}
+.copy_box p{
+    position: absolute;
+    left: -12px;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 38px;
+    background: #fff;
+    width: fit-content;
+    border: transparent;
+    border-radius: 5px;
+    color: #0a3c9b;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    box-shadow: 0px 0px 5px rgba(10, 60, 155, 0.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(10, 60, 155, 0.5);
+}
+.copy_box p:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+.activate-device p.qr_codes a{
+    max-width: 350px;
+    width: 100%;
+}
+.activate-device p.qr_codes a:first-child{
+    margin-right: 2rem;
+}
+@media screen and (min-width: 1200px){
+    .email-main .enter_email_cont{
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .email-main button.btn-verify{
+        width: auto;
+        /*padding-left: 30px;
+        padding-right: 30px;*/
+    }
+    .activated_device_cont{
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .activate-device p.qr_codes a:first-child{
+        margin-right: 3.125rem;
+    }
+    .device-number{
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto 50px;
+    }
+    .device-number + .btn-blue{
+        width: auto;
+    }
+}
+@media (max-width:1024px) {
+    .hero-logo { margin-top: 2rem; }
+}
+@media screen and (max-width: 479px){
+    .btn-blue, .btn-verify{
+        height: 40px;
+        line-height: 1.2;
+    }
+}
+@media (max-width:400px) {
+    .mission-control-app h3 { font-size: 20px; }
+    .activate-device h2 { font-size: 29px; }
+    .mission-control-app h3 + p { font-size: 18px; }
+    .plan { padding: 18px; }
+    .plan h2 { font-size: 18px; }
+    .plan h2 span { width: 70px; font-size: 11px; }
+    .plan h2+p { font-size: 12px; }
+    .plan .price { font-size: 18px; margin-top: 22px; }
+    .plan .price img { width: 20px }
+    .activate-form h1+p+ul li span:last-child { width: 74%; }
+}
+.mission-control-app a.newqr-img img {
+    max-width: 100%;
+}

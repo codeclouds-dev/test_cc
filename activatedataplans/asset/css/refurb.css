@@ -1,0 +1,132 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Roboto', sans-serif; overflow-x: hidden;color: #4A4A4A }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol { margin: 0; }
+a,
+a:hover,
+a:focus { text-decoration: none; }
+
+main { position: relative; }
+@font-face { font-family: 'NeuzeitS-Book'; src: url('../fonts/NeuzeitS-Book.eot'); src: url('../fonts/NeuzeitS-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/NeuzeitS-Book.woff2') format('woff2'), url('../fonts/NeuzeitS-Book.woff') format('woff'), url('../fonts/NeuzeitS-Book.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'NeuzeitGroteskW01'; src: url('../fonts/NeuzeitGroteskW01-Regular.eot'); src: url('../fonts/NeuzeitGroteskW01-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/NeuzeitGroteskW01-Regular.woff2') format('woff2'), url('../fonts/NeuzeitGroteskW01-Regular.woff') format('woff'), url('../fonts/NeuzeitGroteskW01-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'NeuzeitGroteskCondW01'; src: url('../fonts/NeuzeitGroteskCondW01-Black.eot'); src: url('../fonts/NeuzeitGroteskCondW01-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/NeuzeitGroteskCondW01-Black.woff2') format('woff2'), url('../fonts/NeuzeitGroteskCondW01-Black.woff') format('woff'), url('../fonts/NeuzeitGroteskCondW01-Black.ttf') format('truetype'); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Bold.eot'); src: local('../fonts/SF Pro Text Bold'), local('../fonts/SFProText-Bold'), url('../fonts/SFProText-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Bold.woff2') format('woff2'), url('../fonts/SFProText-Bold.woff') format('woff'), url('../fonts/SFProText-Bold.ttf') format('truetype'), url('../fonts/SFProText-Bold.svg#SFProText-Bold') format('svg'); font-weight: bold; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Heavy.eot'); src: local('../fonts/SF Pro Text Heavy'), local('SFProText-Heavy'), url('../fonts/SFProText-Heavy.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Heavy.woff2') format('woff2'), url('../fonts/SFProText-Heavy.woff') format('woff'), url('../fonts/SFProText-Heavy.ttf') format('truetype'), url('../fonts/SFProText-Heavy.svg#SFProText-Heavy') format('svg'); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Light.eot'); src: local('../fonts/SF Pro Text Light'), local('SFProText-Light'), url('../fonts/SFProText-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Light.woff2') format('woff2'), url('../fonts/SFProText-Light.woff') format('woff'), url('../fonts/SFProText-Light.ttf') format('truetype'), url('../fonts/SFProText-Light.svg#SFProText-Light') format('svg'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Medium.eot'); src: local('../fonts/SF Pro Text Medium'), local('SFProText-Medium'), url('../fonts/SFProText-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Medium.woff2') format('woff2'), url('../fonts/SFProText-Medium.woff') format('woff'), url('../fonts/SFProText-Medium.ttf') format('truetype'), url('../fonts/SFProText-Medium.svg#SFProText-Medium') format('svg'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Regular.eot'); src: local('../fonts/SF Pro Text Regular'), local('SFProText-Regular'), url('../fonts/SFProText-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Regular.woff2') format('woff2'), url('../fonts/SFProText-Regular.woff') format('woff'), url('../fonts/SFProText-Regular.ttf') format('truetype'), url('../fonts/SFProText-Regular.svg#SFProText-Regular') format('svg'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Semibold.eot'); src: local('../fonts/SF Pro Text Semibold'), local('SFProText-Semibold'), url('../fonts/SFProText-Semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Semibold.woff2') format('woff2'), url('../fonts/SFProText-Semibold.woff') format('woff'), url('../fonts/SFProText-Semibold.ttf') format('truetype'), url('../fonts/SFProText-Semibold.svg#SFProText-Semibold') format('svg'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Bold.eot'); src: local('../fonts/SF Pro Text Bold'), local('SFProText-Bold'), url('../fonts/SFProText-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Bold.woff2') format('woff2'), url('../fonts/SFProText-Bold.woff') format('woff'), url('../fonts/SFProText-Bold.ttf') format('truetype'), url('../fonts/SFProText-Bold.svg#SFProText-Bold') format('svg'); font-weight: bold; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Heavy.eot'); src: local('../fonts/SF Pro Text Heavy'), local('SFProText-Heavy'), url('../fonts/SFProText-Heavy.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Heavy.woff2') format('woff2'), url('../fonts/SFProText-Heavy.woff') format('woff'), url('../fonts/SFProText-Heavy.ttf') format('truetype'), url('../fonts/SFProText-Heavy.svg#SFProText-Heavy') format('svg'); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Light.eot'); src: local('../fonts/SF Pro Text Light'), local('SFProText-Light'), url('../fonts/SFProText-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Light.woff2') format('woff2'), url('../fonts/SFProText-Light.woff') format('woff'), url('../fonts/SFProText-Light.ttf') format('truetype'), url('../fonts/SFProText-Light.svg#SFProText-Light') format('svg'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Medium.eot'); src: local('../fonts/SF Pro Text Medium'), local('SFProText-Medium'), url('../fonts/SFProText-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Medium.woff2') format('woff2'), url('../fonts/SFProText-Medium.woff') format('woff'), url('../fonts/SFProText-Medium.ttf') format('truetype'), url('../fonts/SFProText-Medium.svg#SFProText-Medium') format('svg'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Regular.eot'); src: local('../fonts/SF Pro Text Regular'), local('SFProText-Regular'), url('../fonts/SFProText-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Regular.woff2') format('woff2'), url('../fonts/SFProText-Regular.woff') format('woff'), url('../fonts/SFProText-Regular.ttf') format('truetype'), url('../fonts/SFProText-Regular.svg#SFProText-Regular') format('svg'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'SF Pro'; src: url('../fonts/SFProText-Semibold.eot'); src: local('../fonts/SF Pro Text Semibold'), local('SFProText-Semibold'), url('../fonts/SFProText-Semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProText-Semibold.woff2') format('woff2'), url('../fonts/SFProText-Semibold.woff') format('woff'), url('../fonts/SFProText-Semibold.ttf') format('truetype'), url('../fonts/SFProText-Semibold.svg#SFProText-Semibold') format('svg'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face {
+    font-family: 'Neuzeit Grotesk';
+    src: url('../fonts/NeuzeitGro-Lig.eot');
+    src: local('Neuzeit Grotesk Light'), local('NeuzeitGro-Lig'),
+        url('../fonts/NeuzeitGro-Lig.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeuzeitGro-Lig.woff2') format('woff2'),
+        url('../fonts/NeuzeitGro-Lig.woff') format('woff'),
+        url('../fonts/NeuzeitGro-Lig.ttf') format('truetype'),
+        url('../fonts/NeuzeitGro-Lig.svg#NeuzeitGro-Lig') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeuzeitGroBlaW03';
+    src: url('../fonts/NeuzeitGroBlaW03-Regular.eot');
+    src: local('NeuzeitGroBla W03 Regular'), local('NeuzeitGroBlaW03-Regular'),
+        url('../fonts/NeuzeitGroBlaW03-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeuzeitGroBlaW03-Regular.woff2') format('woff2'),
+        url('../fonts/NeuzeitGroBlaW03-Regular.woff') format('woff'),
+        url('../fonts/NeuzeitGroBlaW03-Regular.ttf') format('truetype'),
+        url('../fonts/NeuzeitGroBlaW03-Regular.svg#NeuzeitGroBlaW03-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Neuzeit Grotesk';
+    src: url('../fonts/NeuzeitGroteskW03-Regular.eot');
+    src: local('Neuzeit Grotesk W03 Regular'), local('NeuzeitGroteskW03-Regular'),
+        url('../fonts/NeuzeitGroteskW03-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeuzeitGroteskW03-Regular.woff2') format('woff2'),
+        url('../fonts/NeuzeitGroteskW03-Regular.woff') format('woff'),
+        url('../fonts/NeuzeitGroteskW03-Regular.ttf') format('truetype'),
+        url('../fonts/NeuzeitGroteskW03-Regular.svg#NeuzeitGroteskW03-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Neuzeit Grotesk';
+    src: url('../fonts/NeuzeitGroW03-Bold.eot');
+    src: url('NeuzeitGroW03-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeuzeitGroW03-Bold.woff2') format('woff2'),
+        url('../fonts/NeuzeitGroW03-Bold.woff') format('woff'),
+        url('../fonts/NeuzeitGroW03-Bold.ttf') format('truetype'),
+        url('../fonts/NeuzeitGroW03-Bold.svg#NeuzeitGroW03-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.refurb-topsec{
+    background: #0a3c9b;
+    padding: 6rem 0;
+    color: #fff
+}
+.refurb-app-sec{padding: 50px 0}
+.refurb-topsec h1, .refurb-app-sec h1{font-size: 48px;
+    font-family: 'Neuzeit Grotesk', sans-serif !important;
+    font-weight: 600;
+}
+.refurb-app-sec h1{color: #4A4A4A}
+.refurb-topsec p, .refurb-app-sec p{font-family: 'SF Pro', sans-serif;margin: 0;font-size: 16px;}
+
+.app-dwnldbx {
+    background: #FFFFFF;
+    border-radius: 35px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    width: 100%;
+    box-shadow: -1px 3px 6px 2px rgb(41 26 85 / 25%);
+    margin-top: 35px;
+}
+.app-dwnldbx h2{font-family: 'Roboto', sans-serif;font-weight: 500;color: #36343D;text-transform: capitalize;    font-size: 36px;
+    line-height: 36px;
+}
+.app-dwnldbx p{font-family: 'Roboto', sans-serif;color: #6E6E6F;    font-size: 30px;    margin-bottom: 5px;}
+.app-dwnldbx img{    max-height: 100px;
+    margin-bottom: 10px;}
+.app-dwnldbx .appbx{display: flex;justify-content: center;align-items: center;}
+.app-dwnldbx .appbx img{max-height: 60px;width: auto;    margin: 20px 10px;margin-bottom: 0px;}
+
+@media (max-width: 768px){
+.refurb-topsec{    padding: 2rem 0;}
+.refurb-topsec h1,.refurb-app-sec h1{font-size: 32px;margin-bottom:15px}
+.refurb-topsec p{font-size: 14px}
+.app-dwnldbx .appbx img{max-height: 45px;     margin: 25px 10px 10px;}
+.app-dwnldbx {
+    border-radius: 10px;
+    padding: 3rem 1rem 1.5rem;
+    margin-top: 20px;
+}
+.app-dwnldbx h2{font-size: 24px}
+.app-dwnldbx p{font-size: 21px}
+}
+
+@media (max-width: 360px){
+.app-dwnldbx .appbx img{max-height: 40px;     margin: 25px 5px 10px;}
+}

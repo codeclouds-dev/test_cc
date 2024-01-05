@@ -1,0 +1,600 @@
+
+arr => 
+arr => 
+arr => 
+arr => 
+arr => 
+arr => 
+arr => 
+arr => 
+arr => 
+arr => 
+arr => 
+arr => 
+arr => 
+arr => 
+arr => 
+arr => 
+arr => Array
+arr => Array
+arr => Array
+arr => "{\"subscription\": {\"address_id\": 93502232, \"analytics_data\": {\"utm_params\": []}, \"cancellation_reason\": \"Other reason\", \"cancellation_reason_comments\": \"NA\", \"cancelled_at\": \"2022-05-09T05:56:34\", \"charge_delay\": null, \"charge_interval_frequency\": \"1\", \"created_at\": \"2022-04-29T15:03:54\", \"customer_id\": 85415397, \"cutoff_day_of_month_before_and_after\": null, \"cutoff_day_of_week_before_and_after\": null, \"email\": \"ttzimina0@gmail.com\", \"expire_after_specific_number_of_charges\": null, \"first_charge_date\": null, \"has_queued_charges\": 0, \"id\": 239491626, \"is_prepaid\": false, \"is_skippable\": true, \"is_swappable\": false, \"locked_pending_charge_id\": null, \"max_retries_reached\": 0, \"next_charge_scheduled_at\": null, \"order_day_of_month\": null, \"order_day_of_week\": null, \"order_interval_frequency\": \"1\", \"order_interval_unit\": \"month\", \"presentment_currency\": \"USD\", \"price\": 1.0, \"product_title\": \"1 Month Dataplan\", \"properties\": [], \"quantity\": 1, \"recharge_product_id\": 2424352, \"shopify_product_id\": 7664495755485, \"shopify_variant_id\": 42682840645853, \"sku\": \"\", \"sku_override\": false, \"status\": \"CANCELLED\", \"updated_at\": \"2022-05-09T05:56:34\", \"variant_title\": \"\"}}"
+arr => 
+arr => "{\"subscription\": {\"address_id\": 93022310, \"analytics_data\": {\"utm_params\": []}, \"cancellation_reason\": \"Other reason\", \"cancellation_reason_comments\": \"NA\", \"cancelled_at\": \"2022-05-09T06:33:53\", \"charge_delay\": null, \"charge_interval_frequency\": \"1\", \"created_at\": \"2022-04-22T18:08:54\", \"customer_id\": 85415397, \"cutoff_day_of_month_before_and_after\": null, \"cutoff_day_of_week_before_and_after\": null, \"email\": \"ttzimina0@gmail.com\", \"expire_after_specific_number_of_charges\": null, \"first_charge_date\": null, \"has_queued_charges\": 0, \"id\": 237504361, \"is_prepaid\": false, \"is_skippable\": true, \"is_swappable\": false, \"locked_pending_charge_id\": null, \"max_retries_reached\": 0, \"next_charge_scheduled_at\": null, \"order_day_of_month\": null, \"order_day_of_week\": null, \"order_interval_frequency\": \"1\", \"order_interval_unit\": \"month\", \"presentment_currency\": \"USD\", \"price\": 1.0, \"product_title\": \"1 Month Dataplan\", \"properties\": [], \"quantity\": 1, \"recharge_product_id\": 2424352, \"shopify_product_id\": 7664495755485, \"shopify_variant_id\": 42682840645853, \"sku\": \"\", \"sku_override\": false, \"status\": \"CANCELLED\", \"updated_at\": \"2022-05-09T06:33:52\", \"variant_title\": \"\"}}"
+arr => {"subscription": {"address_id": 93217172, "analytics_data": {"utm_params": []}, "cancellation_reason": "Other reason", "cancellation_reason_comments": "NA", "cancelled_at": "2022-05-09T06:38:35", "charge_delay": null, "charge_interval_frequency": "1", "created_at": "2022-04-25T18:58:04", "customer_id": 85415397, "cutoff_day_of_month_before_and_after": null, "cutoff_day_of_week_before_and_after": null, "email": "ttzimina0@gmail.com", "expire_after_specific_number_of_charges": null, "first_charge_date": null, "has_queued_charges": 0, "id": 238382453, "is_prepaid": false, "is_skippable": true, "is_swappable": false, "locked_pending_charge_id": null, "max_retries_reached": 0, "next_charge_scheduled_at": null, "order_day_of_month": null, "order_day_of_week": null, "order_interval_frequency": "1", "order_interval_unit": "month", "presentment_currency": "USD", "price": 19.99, "product_title": "6 Month Extended Dataplan", "properties": [], "quantity": 1, "recharge_product_id": 2424354, "shopify_product_id": 7664495198429, "shopify_variant_id": 42682838941917, "sku": "", "sku_override": false, "status": "CANCELLED", "updated_at": "2022-05-09T06:38:35", "variant_title": ""}}
+arr => Array
+arr => {"subscription": {"address_id": 93357078, "analytics_data": {"utm_params": []}, "cancellation_reason": "Other reason", "cancellation_reason_comments": "NA", "cancelled_at": "2022-05-09T06:47:10", "charge_delay": null, "charge_interval_frequency": "1", "created_at": "2022-04-27T17:41:16", "customer_id": 86013641, "cutoff_day_of_month_before_and_after": null, "cutoff_day_of_week_before_and_after": null, "email": "ttzimina0+1@gmail.com", "expire_after_specific_number_of_charges": null, "first_charge_date": null, "has_queued_charges": 0, "id": 238943933, "is_prepaid": false, "is_skippable": true, "is_swappable": false, "locked_pending_charge_id": null, "max_retries_reached": 0, "next_charge_scheduled_at": null, "order_day_of_month": null, "order_day_of_week": null, "order_interval_frequency": "1", "order_interval_unit": "month", "presentment_currency": "USD", "price": 19.99, "product_title": "6 Month Extended Dataplan", "properties": [], "quantity": 1, "recharge_product_id": 2424354, "shopify_product_id": 7664495198429, "shopify_variant_id": 42682838941917, "sku": "", "sku_override": false, "status": "CANCELLED", "updated_at": "2022-05-09T06:47:10", "variant_title": ""}}==address_id====addr_id==93357078
+arr => 1==address_id====addr_id==93357318
+arr => Array
+(
+    [subscription] => Array
+        (
+            [address_id] => 93357430
+            [analytics_data] => Array
+                (
+                    [utm_params] => Array
+                        (
+                        )
+
+                )
+
+            [cancellation_reason] => Other reason
+            [cancellation_reason_comments] => NA
+            [cancelled_at] => 2022-05-09T07:01:25
+            [charge_delay] => 
+            [charge_interval_frequency] => 1
+            [created_at] => 2022-04-27T17:47:58
+            [customer_id] => 86013641
+            [cutoff_day_of_month_before_and_after] => 
+            [cutoff_day_of_week_before_and_after] => 
+            [email] => ttzimina0+1@gmail.com
+            [expire_after_specific_number_of_charges] => 
+            [first_charge_date] => 
+            [has_queued_charges] => 0
+            [id] => 238945209
+            [is_prepaid] => 
+            [is_skippable] => 1
+            [is_swappable] => 
+            [locked_pending_charge_id] => 
+            [max_retries_reached] => 0
+            [next_charge_scheduled_at] => 
+            [order_day_of_month] => 
+            [order_day_of_week] => 
+            [order_interval_frequency] => 1
+            [order_interval_unit] => month
+            [presentment_currency] => USD
+            [price] => 1
+            [product_title] => 1 Month Dataplan
+            [properties] => Array
+                (
+                )
+
+            [quantity] => 1
+            [recharge_product_id] => 2424352
+            [shopify_product_id] => 7664495755485
+            [shopify_variant_id] => 42682840645853
+            [sku] => 
+            [sku_override] => 
+            [status] => CANCELLED
+            [updated_at] => 2022-05-09T07:01:25
+            [variant_title] => 
+        )
+
+)
+==address_id=={address_id==addr_id==93357430
+arr => Array
+(
+    [subscription] => Array
+        (
+            [address_id] => 93359100
+            [analytics_data] => Array
+                (
+                    [utm_params] => Array
+                        (
+                        )
+
+                )
+
+            [cancellation_reason] => Other reason
+            [cancellation_reason_comments] => NA
+            [cancelled_at] => 2022-05-09T07:05:22
+            [charge_delay] => 
+            [charge_interval_frequency] => 1
+            [created_at] => 2022-04-27T18:20:53
+            [customer_id] => 86013641
+            [cutoff_day_of_month_before_and_after] => 
+            [cutoff_day_of_week_before_and_after] => 
+            [email] => ttzimina0+1@gmail.com
+            [expire_after_specific_number_of_charges] => 
+            [first_charge_date] => 
+            [has_queued_charges] => 0
+            [id] => 238951485
+            [is_prepaid] => 
+            [is_skippable] => 1
+            [is_swappable] => 
+            [locked_pending_charge_id] => 
+            [max_retries_reached] => 0
+            [next_charge_scheduled_at] => 
+            [order_day_of_month] => 
+            [order_day_of_week] => 
+            [order_interval_frequency] => 1
+            [order_interval_unit] => month
+            [presentment_currency] => USD
+            [price] => 1
+            [product_title] => 1 Month Dataplan
+            [properties] => Array
+                (
+                )
+
+            [quantity] => 1
+            [recharge_product_id] => 2424352
+            [shopify_product_id] => 7664495755485
+            [shopify_variant_id] => 42682840645853
+            [sku] => 
+            [sku_override] => 
+            [status] => CANCELLED
+            [updated_at] => 2022-05-09T07:05:21
+            [variant_title] => 
+        )
+
+)
+==addr_id==93359100
+arr => Array
+(
+    [subscription] => Array
+        (
+            [address_id] => 93729764
+            [analytics_data] => Array
+                (
+                    [utm_params] => Array
+                        (
+                        )
+
+                )
+
+            [cancellation_reason] => Other reason
+            [cancellation_reason_comments] => NA
+            [cancelled_at] => 2022-05-09T07:20:25
+            [charge_delay] => 
+            [charge_interval_frequency] => 1
+            [created_at] => 2022-05-02T14:35:04
+            [customer_id] => 86013641
+            [cutoff_day_of_month_before_and_after] => 
+            [cutoff_day_of_week_before_and_after] => 
+            [email] => ttzimina0+1@gmail.com
+            [expire_after_specific_number_of_charges] => 
+            [first_charge_date] => 
+            [has_queued_charges] => 0
+            [id] => 240328025
+            [is_prepaid] => 
+            [is_skippable] => 1
+            [is_swappable] => 
+            [locked_pending_charge_id] => 
+            [max_retries_reached] => 0
+            [next_charge_scheduled_at] => 
+            [order_day_of_month] => 
+            [order_day_of_week] => 
+            [order_interval_frequency] => 1
+            [order_interval_unit] => month
+            [presentment_currency] => USD
+            [price] => 1
+            [product_title] => 1 Month Dataplan
+            [properties] => Array
+                (
+                )
+
+            [quantity] => 1
+            [recharge_product_id] => 2424352
+            [shopify_product_id] => 7664495755485
+            [shopify_variant_id] => 42682840645853
+            [sku] => 
+            [sku_override] => 
+            [status] => CANCELLED
+            [updated_at] => 2022-05-09T07:20:25
+            [variant_title] => 
+        )
+
+)
+==addr_id==93729764
+arr => Array
+(
+    [subscription] => Array
+        (
+            [address_id] => 94172691
+            [analytics_data] => Array
+                (
+                    [utm_params] => Array
+                        (
+                        )
+
+                )
+
+            [cancellation_reason] => Other reason
+            [cancellation_reason_comments] => NA
+            [cancelled_at] => 2022-05-09T08:19:13
+            [charge_delay] => 
+            [charge_interval_frequency] => 1
+            [created_at] => 2022-05-09T08:04:21
+            [customer_id] => 71060900
+            [cutoff_day_of_month_before_and_after] => 
+            [cutoff_day_of_week_before_and_after] => 
+            [email] => vijaya.jha@codeclouds.in
+            [expire_after_specific_number_of_charges] => 
+            [first_charge_date] => 
+            [has_queued_charges] => 0
+            [id] => 242144863
+            [is_prepaid] => 
+            [is_skippable] => 1
+            [is_swappable] => 
+            [locked_pending_charge_id] => 
+            [max_retries_reached] => 0
+            [next_charge_scheduled_at] => 
+            [order_day_of_month] => 
+            [order_day_of_week] => 
+            [order_interval_frequency] => 1
+            [order_interval_unit] => month
+            [presentment_currency] => USD
+            [price] => 1
+            [product_title] => 1 Month Dataplan
+            [properties] => Array
+                (
+                )
+
+            [quantity] => 1
+            [recharge_product_id] => 2424352
+            [shopify_product_id] => 7664495755485
+            [shopify_variant_id] => 42682840645853
+            [sku] => 
+            [sku_override] => 
+            [status] => CANCELLED
+            [updated_at] => 2022-05-09T08:19:13
+            [variant_title] => 
+        )
+
+)
+==addr_id==94172691
+arr => Array
+(
+    [subscription] => Array
+        (
+            [address_id] => 71780287
+            [analytics_data] => Array
+                (
+                    [utm_params] => Array
+                        (
+                        )
+
+                )
+
+            [cancellation_reason] => Other reason
+            [cancellation_reason_comments] => 
+            [cancelled_at] => 2022-05-09T09:44:26
+            [charge_delay] => 
+            [charge_interval_frequency] => 1
+            [created_at] => 2021-06-23T12:16:15
+            [customer_id] => 67191170
+            [cutoff_day_of_month_before_and_after] => 
+            [cutoff_day_of_week_before_and_after] => 
+            [email] => mpeterson1357@gmail.com
+            [expire_after_specific_number_of_charges] => 
+            [first_charge_date] => 
+            [has_queued_charges] => 0
+            [id] => 162873909
+            [is_prepaid] => 
+            [is_skippable] => 1
+            [is_swappable] => 
+            [locked_pending_charge_id] => 
+            [max_retries_reached] => 0
+            [next_charge_scheduled_at] => 
+            [order_day_of_month] => 
+            [order_day_of_week] => 
+            [order_interval_frequency] => 1
+            [order_interval_unit] => month
+            [presentment_currency] => USD
+            [price] => 19.99
+            [product_title] => COSMO Unlimited Dataplan ($19.99/mo)
+            [properties] => Array
+                (
+                )
+
+            [quantity] => 1
+            [recharge_product_id] => 1827656
+            [shopify_product_id] => 6665229926568
+            [shopify_variant_id] => 39691245322408
+            [sku] => 
+            [sku_override] => 
+            [status] => CANCELLED
+            [updated_at] => 2022-05-09T09:44:26
+            [variant_title] => 
+        )
+
+)
+==addr_id==71780287
+arr => Array
+(
+    [subscription] => Array
+        (
+            [address_id] => 70782550
+            [analytics_data] => Array
+                (
+                    [utm_params] => Array
+                        (
+                        )
+
+                )
+
+            [cancellation_reason] => Other reason
+            [cancellation_reason_comments] => 
+            [cancelled_at] => 2022-05-09T10:23:05
+            [charge_delay] => 
+            [charge_interval_frequency] => 1
+            [created_at] => 2021-06-06T15:20:01
+            [customer_id] => 66297904
+            [cutoff_day_of_month_before_and_after] => 
+            [cutoff_day_of_week_before_and_after] => 
+            [email] => bigkicker05@hotmail.com
+            [expire_after_specific_number_of_charges] => 
+            [first_charge_date] => 
+            [has_queued_charges] => 0
+            [id] => 159138838
+            [is_prepaid] => 
+            [is_skippable] => 1
+            [is_swappable] => 
+            [locked_pending_charge_id] => 
+            [max_retries_reached] => 0
+            [next_charge_scheduled_at] => 
+            [order_day_of_month] => 
+            [order_day_of_week] => 
+            [order_interval_frequency] => 1
+            [order_interval_unit] => month
+            [presentment_currency] => USD
+            [price] => 19.99
+            [product_title] => COSMO Unlimited Dataplan ($19.99/mo)
+            [properties] => Array
+                (
+                )
+
+            [quantity] => 1
+            [recharge_product_id] => 1827656
+            [shopify_product_id] => 6665229926568
+            [shopify_variant_id] => 39691245322408
+            [sku] => 
+            [sku_override] => 
+            [status] => CANCELLED
+            [updated_at] => 2022-05-09T10:23:05
+            [variant_title] => 
+        )
+
+)
+==addr_id==70782550
+arr => Array
+(
+    [subscription] => Array
+        (
+            [address_id] => 67728135
+            [analytics_data] => Array
+                (
+                    [utm_params] => Array
+                        (
+                        )
+
+                )
+
+            [cancellation_reason] => Other reason
+            [cancellation_reason_comments] => 
+            [cancelled_at] => 2022-05-09T10:49:52
+            [charge_delay] => 
+            [charge_interval_frequency] => 1
+            [created_at] => 2021-04-21T21:45:31
+            [customer_id] => 63615017
+            [cutoff_day_of_month_before_and_after] => 
+            [cutoff_day_of_week_before_and_after] => 
+            [email] => kelseygrimes@hotmail.com
+            [expire_after_specific_number_of_charges] => 
+            [first_charge_date] => 
+            [has_queued_charges] => 0
+            [id] => 148392511
+            [is_prepaid] => 
+            [is_skippable] => 1
+            [is_swappable] => 
+            [locked_pending_charge_id] => 
+            [max_retries_reached] => 0
+            [next_charge_scheduled_at] => 
+            [order_day_of_month] => 
+            [order_day_of_week] => 
+            [order_interval_frequency] => 1
+            [order_interval_unit] => month
+            [presentment_currency] => USD
+            [price] => 19.99
+            [product_title] => COSMO Plan
+            [properties] => Array
+                (
+                )
+
+            [quantity] => 1
+            [recharge_product_id] => 1751882
+            [shopify_product_id] => 6232121278632
+            [shopify_variant_id] => 37766889603240
+            [sku] => 
+            [sku_override] => 
+            [status] => CANCELLED
+            [updated_at] => 2022-05-09T10:49:51
+            [variant_title] => 
+        )
+
+)
+==addr_id==67728135
+arr => Array
+(
+    [subscription] => Array
+        (
+            [address_id] => 67270999
+            [analytics_data] => Array
+                (
+                    [utm_params] => Array
+                        (
+                        )
+
+                )
+
+            [cancellation_reason] => Other reason
+            [cancellation_reason_comments] => 
+            [cancelled_at] => 2022-05-09T11:24:10
+            [charge_delay] => 
+            [charge_interval_frequency] => 1
+            [created_at] => 2021-04-14T14:04:38
+            [customer_id] => 63190218
+            [cutoff_day_of_month_before_and_after] => 
+            [cutoff_day_of_week_before_and_after] => 
+            [email] => pablorevilla@gmail.com
+            [expire_after_specific_number_of_charges] => 
+            [first_charge_date] => 
+            [has_queued_charges] => 0
+            [id] => 146600210
+            [is_prepaid] => 
+            [is_skippable] => 1
+            [is_swappable] => 
+            [locked_pending_charge_id] => 
+            [max_retries_reached] => 0
+            [next_charge_scheduled_at] => 
+            [order_day_of_month] => 
+            [order_day_of_week] => 
+            [order_interval_frequency] => 1
+            [order_interval_unit] => month
+            [presentment_currency] => USD
+            [price] => 19.99
+            [product_title] => Unlimited COSMO Data Plan ($19.99/mo)
+            [properties] => Array
+                (
+                )
+
+            [quantity] => 1
+            [recharge_product_id] => 1765739
+            [shopify_product_id] => 6267967209640
+            [shopify_variant_id] => 37881641959592
+            [sku] => 
+            [sku_override] => 
+            [status] => CANCELLED
+            [updated_at] => 2022-05-09T11:24:10
+            [variant_title] => 
+        )
+
+)
+==addr_id==67270999
+arr => Array
+(
+    [subscription] => Array
+        (
+            [address_id] => 72031355
+            [analytics_data] => Array
+                (
+                    [utm_params] => Array
+                        (
+                        )
+
+                )
+
+            [cancellation_reason] => Other reason
+            [cancellation_reason_comments] => 
+            [cancelled_at] => 2022-05-09T12:51:33
+            [charge_delay] => 
+            [charge_interval_frequency] => 1
+            [created_at] => 2021-06-27T19:31:22
+            [customer_id] => 67423418
+            [cutoff_day_of_month_before_and_after] => 
+            [cutoff_day_of_week_before_and_after] => 
+            [email] => drmattlink@gmail.com
+            [expire_after_specific_number_of_charges] => 
+            [first_charge_date] => 
+            [has_queued_charges] => 0
+            [id] => 163773811
+            [is_prepaid] => 
+            [is_skippable] => 1
+            [is_swappable] => 
+            [locked_pending_charge_id] => 
+            [max_retries_reached] => 0
+            [next_charge_scheduled_at] => 
+            [order_day_of_month] => 
+            [order_day_of_week] => 
+            [order_interval_frequency] => 1
+            [order_interval_unit] => month
+            [presentment_currency] => USD
+            [price] => 19.99
+            [product_title] => COSMO Unlimited Dataplan ($19.99/mo)
+            [properties] => Array
+                (
+                )
+
+            [quantity] => 1
+            [recharge_product_id] => 1827656
+            [shopify_product_id] => 6665229926568
+            [shopify_variant_id] => 39691245322408
+            [sku] => 
+            [sku_override] => 
+            [status] => CANCELLED
+            [updated_at] => 2022-05-09T12:51:32
+            [variant_title] => 
+        )
+
+)
+==addr_id==72031355
+arr => Array
+(
+    [subscription] => Array
+        (
+            [address_id] => 91590672
+            [analytics_data] => Array
+                (
+                    [utm_params] => Array
+                        (
+                        )
+
+                )
+
+            [cancellation_reason] => Max Number of Charge attempts reached
+            [cancellation_reason_comments] => 
+            [cancelled_at] => 2022-05-09T16:14:01
+            [charge_delay] => 
+            [charge_interval_frequency] => 1
+            [created_at] => 2022-04-02T13:53:12
+            [customer_id] => 70623732
+            [cutoff_day_of_month_before_and_after] => 
+            [cutoff_day_of_week_before_and_after] => 
+            [email] => ann_steybe@yahoo.com
+            [expire_after_specific_number_of_charges] => 
+            [first_charge_date] => 
+            [has_queued_charges] => 0
+            [id] => 231990824
+            [is_prepaid] => 
+            [is_skippable] => 1
+            [is_swappable] => 
+            [locked_pending_charge_id] => 
+            [max_retries_reached] => 1
+            [next_charge_scheduled_at] => 
+            [order_day_of_month] => 
+            [order_day_of_week] => 
+            [order_interval_frequency] => 1
+            [order_interval_unit] => month
+            [presentment_currency] => USD
+            [price] => 24.99
+            [product_title] => COSMO Unlimited Dataplan ($24.99/mo)
+            [properties] => Array
+                (
+                )
+
+            [quantity] => 1
+            [recharge_product_id] => 1827657
+            [shopify_product_id] => 6665231302824
+            [shopify_variant_id] => 39691251056808
+            [sku] => 
+            [sku_override] => 
+            [status] => CANCELLED
+            [updated_at] => 2022-05-09T16:14:00
+            [variant_title] => 
+        )
+
+)
+==addr_id==91590672
+arr => ==product_id==
+arr => ==product_id==
+arr => ==addr_id==

@@ -1,0 +1,6 @@
+<FilesMatch "^(deviceinfo|activation_pending|index|check_data_paid_not_active|testreport|pending_report|refurbed_activation|shipstation_manual_entry|fut|reset_telnyx_sim|device_swapping|import_report).php$">
+AuthType Basic
+AuthName "Authentication Required"
+AuthUserFile /home/activatecosmotog/public_html/activatedataplans/reports/.htpasswd
+Require valid-user
+</FilesMatch>

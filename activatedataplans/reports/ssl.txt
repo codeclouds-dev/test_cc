@@ -1,0 +1,1668 @@
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Fri, 01 Dec 2023 12:32:55 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-nWcnRU824cQ1usJKVP79CKaI9gM"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Fri, 01 Dec 2023 12:44:03 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-D/qiYhpTWbCh/MeeKoUBmeWd9/g"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Thu, 14 Dec 2023 07:34:18 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-UqgyK4NT1L337Hf9dScbt9JDD2Q"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Thu, 14 Dec 2023 07:35:20 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-y4IYxe+PxcmHMPLCTHz44EX4/K0"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Fri, 15 Dec 2023 09:33:15 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-v7mBkestQumnVWkdU9fkeokD/is"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Fri, 15 Dec 2023 12:56:35 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-krYkW87Tyo8NowNuWltWmasgEfA"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Sat, 16 Dec 2023 05:58:18 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-gxA3MIkR8AeQEgUMM3/IEQgTHSc"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Tue, 19 Dec 2023 12:57:43 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-NDP6xRRc39HkH4/QmPNaEHDcGN8"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Tue, 19 Dec 2023 13:11:18 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-hDY/IMCA0nD+wifvgVgNXNLIgEc"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Tue, 19 Dec 2023 13:19:44 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-ZX/lVwbutHvWnaFX/xncqFMliVM"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Tue, 19 Dec 2023 14:21:08 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-F9vjREl5e6hodjSGMwSxyjclO9s"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Wed, 20 Dec 2023 07:31:42 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-lDiv3gmcJh3/fO7OodNKAPElwfI"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Wed, 20 Dec 2023 07:37:07 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-LzXXrm9SLWa20SUqeAtTa6W3GEo"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Wed, 20 Dec 2023 07:37:55 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-Va0S6HzSB1bQaQdJOLYRUQzUbFg"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Wed, 20 Dec 2023 07:39:13 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-zNtdC8OEkc19v50hWU+hOT5/QqY"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Thu, 21 Dec 2023 06:02:11 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-TEgfCd8K0Gwj7WtZsdWWRTzK2CU"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Thu, 21 Dec 2023 06:02:15 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-mBbiqkhZxZToBYQXe8lPEH5sJGU"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Thu, 21 Dec 2023 08:18:29 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-s0/Z9jPxUdOZGmtUA1Cdc/gk2eo"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Thu, 21 Dec 2023 13:24:31 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-NEXjSlOTatO9j3mgSb58rLgXIhg"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Thu, 21 Dec 2023 15:12:02 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-mYomzWuMLy7z39fy+Hv0YeIQwNI"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Thu, 21 Dec 2023 15:34:38 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-Fmez8XGbXXPvT2x+tZJwYR9fJWA"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Thu, 21 Dec 2023 15:34:48 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-sssGcgznM1KLdwhoXAaoIwpUUGQ"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Fri, 22 Dec 2023 07:02:28 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-svxpGbM5milE1l6TF1eotIc1QpE"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Fri, 22 Dec 2023 07:22:26 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-8BajCKEaYbDjy4ru4aDNjFaDtnw"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Fri, 22 Dec 2023 09:52:08 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-4VHHPihT2IfaU2az+M05bGO/dw8"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Fri, 22 Dec 2023 09:56:37 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-PhD50KgC58i5i8zTPqhiFXUwBRA"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Tue, 26 Dec 2023 08:04:05 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-1LUUKm6hKmdJvaJtHsxXkt3UkBI"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Tue, 26 Dec 2023 08:07:57 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-Z5jeN/QjL9uXMzFqzB6Rpsf/zZY"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Tue, 26 Dec 2023 09:17:31 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-98V+IYPt0gGYzm4XHQ1ngKIKvKs"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Tue, 26 Dec 2023 09:32:40 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-/kygjVI1x7/3c2ScYtP28PrIDwA"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Tue, 26 Dec 2023 09:42:18 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-MfGMHgwUKht212nzs7BG0DyIsMQ"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Tue, 26 Dec 2023 09:43:17 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-r8W5n0hgs2pEMaLUUWhhl0iAedM"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Tue, 26 Dec 2023 09:56:34 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-8aVDRqvunRIsoek8TuYHSpwkj1U"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Tue, 26 Dec 2023 10:32:49 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-Gohb0KX1PuhX65LSCl/y6TA3mnQ"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
+* Host cosmoadmin.senlab.io:443 was resolved.
+* IPv6: (none)
+* IPv4: 24.199.66.254
+*   Trying 24.199.66.254:443...
+* Connected to cosmoadmin.senlab.io (24.199.66.254) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.senlab.io
+*  start date: Nov 21 00:00:00 2023 GMT
+*  expire date: Dec 20 23:59:59 2024 GMT
+*  subjectAltName: host "cosmoadmin.senlab.io" matched cert's "*.senlab.io"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type ? (4096/128 Bits/secBits), signed using sha384WithRSAEncryption
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://cosmoadmin.senlab.io/sip/auth/token
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: cosmoadmin.senlab.io]
+* [HTTP/2] [1] [:path: /sip/auth/token]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 58]
+> POST /sip/auth/token HTTP/2
+Host: cosmoadmin.senlab.io
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Thu, 28 Dec 2023 12:57:36 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 465
+< vary: Accept-Encoding
+< x-powered-by: Express
+< vary: Origin
+< access-control-allow-credentials: true
+< etag: W/"1d1-cos4SyMZsGF9wP54cvH2c9bxfKU"
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host cosmoadmin.senlab.io left intact
