@@ -1,6 +1,0 @@
-<FilesMatch "^(deviceinfo|activation_pending|index|check_data_paid_not_active|testreport|pending_report).php$">
-AuthType Basic
-AuthName "Authentication Required"
-AuthUserFile /home/activatecosmotog/public_html/activatedataplans/reports/.htpasswd
-Require valid-user
-</FilesMatch>
